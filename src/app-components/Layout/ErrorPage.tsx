@@ -17,8 +17,8 @@ const ErrorPage = () => {
         <h1
           className={
             context?.theme == "dark"
-              ? "text-[#f2f2f2] text-center text-[2.5rem] font-bold"
-              : "text-[#141414] text-center text-[2.5rem] font-bold"
+              ? "xs:text-[2rem] sm:text-[2.3rem] md:text-[2.5rem] text-[#f2f2f2] text-center font-bold"
+              : "xs:text-[2rem] sm:text-[2.3rem] md:text-[2.5rem] text-[#141414] text-center font-bold"
           }
         >
           404 Not Found

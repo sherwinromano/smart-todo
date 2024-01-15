@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { useToast } from "@/components/ui/use-toast";
 import { ComponentContext } from "@/app-components/Layout/AppLayout";
 import { useNavigate } from "react-router-dom";
-import { dailyTask, important } from "@/firebase-config";
+import { dailyTask, important } from "../../../../firebase-config";
 import { addDoc, serverTimestamp } from "firebase/firestore";
 import { SheetClose } from "@/components/ui/sheet";
 import { useRef, useState, useContext } from "react";

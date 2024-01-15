@@ -1,7 +1,7 @@
 import ScrollContent from "../../ui-custom-components/ScrollContent";
 import TaskStatus from "../TaskStatus";
 import { useEffect, useState, useContext } from "react";
-import { important } from "@/firebase-config";
+import { important } from "../../../../firebase-config";
 import { useOutletContext } from "react-router-dom";
 import { ContextProp } from "@/App";
 import SelectDropdown from "@/app-components/ui-custom-components/Select";

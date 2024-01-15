@@ -4,7 +4,7 @@ import { ThemeContext } from "@/App";
 import { ComponentContext } from "../Layout/AppLayout";
 import { useContext, useEffect, useState } from "react";
 import { query, orderBy, DocumentData, getDocs } from "firebase/firestore";
-import { dailyTask, important } from "@/firebase-config";
+import { dailyTask, important } from "../../../firebase-config";
 import { createContext } from "react";
 import { ComponentProp } from "../Layout/AppLayout";
 import { TaskNumberContext } from "@/app-components/Layout/AppLayout";
