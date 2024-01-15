@@ -53,11 +53,11 @@ const Inputbody = ({
 
     if (selectValue == "Daily Task") {
       await addDoc(dailyTask, dbFields);
-      navigate("/");
+      navigate("/smart-todo/");
       componentContext?.setUpdateComponent((prev) => (!prev ? true : false));
     } else {
       await addDoc(important, dbFields);
-      navigate("/important");
+      navigate("/smart-todo/important");
       componentContext?.setUpdateComponent((prev) => (!prev ? true : false));
     }
 

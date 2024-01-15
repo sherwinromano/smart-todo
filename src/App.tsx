@@ -22,7 +22,7 @@ const routes = createBrowserRouter(
     <>
       <Route path="/smart-todo/" element={<AppLayout />}>
         <Route index element={<DailyTask />} />
-        <Route path="important" element={<Important />} />
+        <Route path="/smart-todo/important" element={<Important />} />
       </Route>
       <Route path="*" element={<ErrorPage />} />
     </>

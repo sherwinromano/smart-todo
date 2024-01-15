@@ -11,13 +11,13 @@ const Navlinks = ({ context }: SidebarContext) => {
 
   const links = [
     {
-      link: "/",
+      link: "/smart-todo/",
       name: "Daily Task",
       icon: faCalendarCheck,
       taskNumber: taskLength?.taskNumber?.at(0),
     },
     {
-      link: "important",
+      link: "/smart-todo/important",
       name: "Important",
       icon: faThumbtack,
       taskNumber: taskLength?.taskNumber?.at(1),
@@ -36,6 +36,7 @@ const Navlinks = ({ context }: SidebarContext) => {
                   ? "p-3 flex justify-between items-center rounded-md h-full dark"
                   : "p-3 flex justify-between items-center rounded-md h-full"
               }
+              end
             >
               <div className="flex items-center justify-between w-1/2">
                 <FontAwesomeIcon
