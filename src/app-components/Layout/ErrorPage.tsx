@@ -24,7 +24,7 @@ const ErrorPage = () => {
           404 Not Found
         </h1>
         <Link
-          to="/"
+          to="/smart-todo/"
           className={
             context?.theme == "dark"
               ? "text-[#f2f2f2] text-center block"

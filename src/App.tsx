@@ -20,7 +20,7 @@ export interface ContextProp {
 const routes = createBrowserRouter(
   createRoutesFromElements(
     <>
-      <Route path="/" element={<AppLayout />}>
+      <Route path="/smart-todo/" element={<AppLayout />}>
         <Route index element={<DailyTask />} />
         <Route path="important" element={<Important />} />
       </Route>
